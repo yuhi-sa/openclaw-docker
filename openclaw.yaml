@@ -2,3 +2,9 @@ agents:
   defaults:
     model:
       primary: "google/gemini-2.5-flash"
+
+channels:
+  slack:
+    enabled: true
+    mode: "socket"
+    groupPolicy: "open"
